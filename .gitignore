@@ -1,0 +1,16 @@
+# publish only what the program needs to build; everything else stays local
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/build_exe.bat
+!/release.ps1
+!/.github/
+!/rcalc.py
+!/Rcalc.ico
+!/resource/
+/resource/*
+!/resource/periodic_data.py
+!/resource/mechanical_data.py
+!/resource/ICs/
+__pycache__/
